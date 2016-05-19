@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="calculator.css">
+<script src="calculate.js"></script>
+<body>
+	<title>Grade Calculator</title>
+	<br></br>
+	<div id="wholetable">
+		<p id="title">Grade Calculator</p>
+		<div id="maincalculator">
+			<div id="maincalculatorcontent">
+				<p id="Activities">Activities</p>
+				<p><span style="font-size: 12px;">Give grades to the number of activities:</span></p>
+				<table id="calculatortable">
+					<thead>
+						<tr>
+							<td style="background-color: #D3D3D3"><strong>Name</strong></td>
+							<td style="background-color: #D3D3D3"><strong>Short class</strong></td>
+							<td style="background-color: #D3D3D3"><strong>Grade</strong></td>
+							<td style="background-color: #D3D3D3"><strong>Percentage</strong></td>
+							<td style="background-color: #D3D3D3"><strong>Date</strong></td>
+							<td style="background-color: #D3D3D3"><strong>Leader's Name</strong></td>
+						</tr>
+					</thead>
+					<div id="tablecontent">
+						<tbody>
+							<tr>
+								<td>Activity 1</td>
+								<td>A1</td>
+								<td class="inputnumber">
+									<form action="form_action.asp" method="get">
+		  								<input type="number" class="getgrade" /> / <input type="number" class="totalgrade" />
+									</form>
+								</td>
+								<td class="percent"></td>
+								<td>
+									<form action="demo_form.asp">
+									<input type="date" name="Month" class="Date" ><br>
+									</form>
+								</td>
+								<td>
+									<form action="demo_form.asp">
+									First name: <input type="text" name="FirstName" value="Bobby"><br>
+									Last name: <input type="text" name="LastName" value="Chan"><br>
+									<input type="submit" value="Submit" class="leadersubmit">
+									</form>
+								</td>
+							</tr>
+						</tbody>
+						<tbody>
+							<tr>
+								<td>Activity 2</td>
+								<td>A2</td>
+								<td class="inputnumber">
+									<form action="form_action.asp" method="get">
+		  								<input type="number" class="getgrade" /> / <input type="number" class="totalgrade" />
+									</form>
+								</td>
+								<td class="percent"></td>
+								<td>
+									<form action="demo_form.asp">
+									<input type="date" name="Date" class="Date" ><br>
+									</form>
+								</td>
+								<td>
+									<form action="demo_form.asp">
+									First name: <input type="text" name="FirstName" value="Bobby"><br>
+									Last name: <input type="text" name="LastName" value="Chan"><br>
+									<input type="submit" value="Submit" class="leadersubmit">
+									</form>
+								</td>
+							</tr>
+						</tbody>
+						<tbody>
+							<tr>
+								<td>Activity 3</td>
+								<td>A3</td>
+								<td class="inputnumber">
+									<form action="form_action.asp" method="get">
+		  								<input type="number" class="getgrade" /> / <input type="number" class="totalgrade" />
+									</form>
+								</td>
+								<td class="percent"></td>
+								<td>
+									<form action="demo_form.asp">
+									<input type="date" name="Date" class="Date" ><br>
+									</form>
+								</td>
+								<td>
+									<form action="demo_form.asp">
+									First name: <input type="text" name="FirstName" value="Bobby"><br>
+									Last name: <input type="text" name="LastName" value="Chan"><br>
+									<input type="submit" value="Submit" class="leadersubmit">
+									</form>
+								</td>
+							</tr>
+						</tbody>
+						<tbody>
+							<tr>
+								<td>Activity 4</td>
+								<td>A4</td>
+								<td class="inputnumber">
+									<form action="form_action.asp" method="get">
+		  								<input type="number" class="getgrade" /> / <input type="number" class="totalgrade" />
+									</form>
+								</td>
+								<td class="percent"></td>
+								<td>
+									<form action="demo_form.asp">
+									<input type="date" name="Date" class="Date"><br>
+									</form>
+								</td>
+								<td>
+									<form action="demo_form.asp">
+									First name: <input type="text" name="FirstName" value="Bobby"><br>
+									Last name: <input type="text" name="LastName" value="Chan"><br>
+									<input type="submit" value="Submit" class="leadersubmit">
+									</form>
+								</td>
+							</tr>
+						</tbody>
+						<tbody>
+							<tr>
+								<td><strong>Total</strong></td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+								<td id="result"></td>
+								<td></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</div>
+				</div>
+			</table>
+			<button id="avgbutton" type="button" onclick="calculteavg()">Average</button> <button id = "meanbutton" type="button" onclick="calcultemean()">Mean</button>
+	 		<br>
+		</div>
+	</div>
+</body>
+</html>
