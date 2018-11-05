@@ -1,8 +1,8 @@
 # CMPT276Assignment1
 
 
-The colors, fonts, and spacing should follow the picture as much as possible. 
+The colors, fonts, and spacing should follow the picture. 
 
-Calculation is works for every statment.
+Calculation is working for every statment.
 
-Add function with date and Leader's name for Creativity and I think is very useful.  But not finish yet.
+Add function with date and Leader's name for creativity. The functionality is useful but unfinished. 
